@@ -1,0 +1,17 @@
+spring:
+  application.name: react-spring-boot-poc
+
+  main:
+    banner-mode: off
+
+client:
+  cors:
+    local:
+      allowed-origins: http://localhost:3000
+      allowed-headers: Authorization, Content-Type
+      allowed-methods: OPTIONS, GET, POST, PUT, DELETE
+      exposed-headers: Location
+      allow-credentials: false
+
+  properties:
+    SERVER_BASE_URL: http://localhost:8080

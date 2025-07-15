@@ -1,0 +1,29 @@
+{
+  "editor.formatOnSaveMode": "modifications",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "always"
+  },
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "cSpell.language": "en,de",
+  "eslint.format.enable": true,
+  "reactSnippets.settings.importReactOnTop": false,
+  "typescript.preferences.organizeImports": {
+    "caseFirst": "default"
+  },
+  "[typescript, typescriptreact, javascript, javascriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "files.trimTrailingWhitespace": true,
+  "editor.rulers": [
+    {
+      "column": 120
+    }
+  ],
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "editor.defaultFormatter": "EditorConfig.EditorConfig"
+}
